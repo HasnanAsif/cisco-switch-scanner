@@ -6,7 +6,7 @@ The purpose is to help network administrators identify inactive ports, allowing 
 
 ---
 
-### Support
+### ☑️ Support 
 The script works with both:
 - SSH (Preferred)
 - Telnet
@@ -15,7 +15,7 @@ The script works with both:
 
 ---
 
-### Process
+### ⚙️ Process 
 1. Pull all IPs from switches.txt.
 2. Attempt to connect to each IP.
 3. If SSH fails, retry with Telnet. If both fail, move to next switch.
@@ -27,7 +27,7 @@ The script works with both:
 
 ---
 
-### Overview Files 
+### 📋 Overview Files
 These files list all ports for an IP that have been `notconnect` since the start of the scanning process. If a port becomes active, then it will be removed from the list.
 
 #### Note: Always review the script before execution and test in a non-production environment to ensure compatibility
