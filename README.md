@@ -1,14 +1,14 @@
 ## Cisco Catalyst Switch Scanner
 A script that scans a list of network switches and determines active/inactive ports.
 
-This is a Python driven script that allows network admins to determine which ports are active and inactive on a Cisco Catalyst switch.
-The goal is to allow network admins to indentify inactive ports so that they can be unplugged to free up space for any new connections.
+This Python script enables network administrators to identify active and inactive ports on Cisco Catalyst switches.
+The purpose is to help network administrators identify inactive ports, allowing them to disconnect unused connections and free up space for new devices.
 
 ---
 
 ### Support
 The script works with both:
-- SSH
+- SSH (Preferred)
 - Telnet
 
 Note: Telnet is highly insecure and should be avoided. However certain systems still use switches that are running older OSs that do not support SSH. Due to this, support has been provided.
