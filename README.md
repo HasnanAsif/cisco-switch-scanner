@@ -11,7 +11,7 @@ The script works with both:
 - SSH (Preferred)
 - Telnet
 
-Note: Telnet is highly insecure and should be avoided. However certain systems still use switches that are running older OSs that do not support SSH. Due to this, support has been provided.
+**Note:** Telnet is highly insecure and should be avoided. However certain systems still use switches that are running older OSs that do not support SSH. Due to this, support has been provided.
 
 ---
 
@@ -27,7 +27,7 @@ Note: Telnet is highly insecure and should be avoided. However certain systems s
 
 ---
 
-### Overview Files
+### Overview Files 
 These files list all ports for an IP that have been `notconnect` since the start of the scanning process. If a port becomes active, then it will be removed from the list.
 
 #### Note: Always review the script before execution and test in a non-production environment to ensure compatibility
